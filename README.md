@@ -1,5 +1,7 @@
 # wf_plotting_our_blocks
 
+Use **margins** and **paddings** to adjust the spaces between divisions and use the **display** property to be able to put each block in its proper place. We may need additional CSS properties.
+
 ![](position-blocks.png)
 
 - html starter code:
@@ -32,7 +34,7 @@ CSS starter code:
 .container{
     width: 950px;
     background-color: silver;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 .top-nav {
     height: 150px;
@@ -61,3 +63,6 @@ CSS starter code:
 
 
 ```
+
+
+While we do this assignment, we can make use `height` as well as the `vertical-align` property to give the necessary height to the division and also to vertically align some of the inline-blocks.
